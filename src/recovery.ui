@@ -1,0 +1,127 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>QTodoRecoveryDialogBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>Recovery</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>611</width>
+            <height>396</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>QTodo - Recovery</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLabel" row="0" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>textLabel1</cstring>
+            </property>
+            <property name="text">
+                <string>One or more todo-lists couldn't be loaded successfully.</string>
+            </property>
+        </widget>
+        <widget class="QListView" row="1" column="0" rowspan="1" colspan="2">
+            <column>
+                <property name="text">
+                    <string>Todo-List</string>
+                </property>
+                <property name="clickable">
+                    <bool>true</bool>
+                </property>
+                <property name="resizable">
+                    <bool>true</bool>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Last save</string>
+                </property>
+                <property name="clickable">
+                    <bool>true</bool>
+                </property>
+                <property name="resizable">
+                    <bool>true</bool>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>Last backup</string>
+                </property>
+                <property name="clickable">
+                    <bool>true</bool>
+                </property>
+                <property name="resizable">
+                    <bool>true</bool>
+                </property>
+            </column>
+            <property name="name">
+                <cstring>list</cstring>
+            </property>
+            <property name="resizeMode">
+                <enum>AllColumns</enum>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="2" column="0">
+            <property name="name">
+                <cstring>recover_button</cstring>
+            </property>
+            <property name="text">
+                <string>Rec&amp;over</string>
+            </property>
+            <property name="accel">
+                <string>Alt+O</string>
+            </property>
+            <property name="iconSet">
+                <iconset>image0</iconset>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="2" column="1">
+            <property name="name">
+                <cstring>immediate_quit_button</cstring>
+            </property>
+            <property name="text">
+                <string>Quit i&amp;mmediate</string>
+            </property>
+            <property name="accel">
+                <string>Alt+M</string>
+            </property>
+            <property name="iconSet">
+                <iconset>image1</iconset>
+            </property>
+        </widget>
+    </grid>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="1234">89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af400000499494441545885bd964b685d4518c7ff27b9692e37af1bd3d486b4c95214a5a0762522d4eab262c5bddb6e4450dc288582da4d11dcf85ab86ca11b37a2205890e8dd54a8250b2ba6506969926b6c6feee3dc73e67b8c8b997b5e396711a11918e671e69cef3fdff7fb664ed06ab5505536b7c41231c80882006016303388d236df673067dbfc1c91a0bdb38b870f7af8e2f3b70200a85519dfda52fbe24b27c0ac10551c3b3a0f0058fff35e6edd334f1cabdc4059f9e1e775b0217cf0e165fbf1476f0495028819514c188431585201275fbb80a5c526eaf509d4272770e3bb0bfb12b0f1771b228253af3c8fb3673fb5d5024820a22076eda84c3526f1ecd3ab989f6da039d7d89771c0855144618c41ad36561d0266018bbaca92cc1f9aa861e94813cdd9069ab3ff4f008ba2d3e94255ab05103144d57942530f1c5d9cc3d291392f606adf028805dddd1e866104558ba0d56a3d52da7fbff1554ec0fb9f5c46d81ba0bbbd831fbfff0db5474dfba997dfc3b59f2e4155d16e77d0eff641cc20432e040741fbd2d29bf8eccb773018443086c1cc308660ad45eda068bff6ebba0b233188198608aa16b583a2ddc4ce30fb4a9478e060683744ce307b580d3b01cc0261054b3e04afbffa1c4e3cb982e9c624a6a7eafb16d0e97411f606887dac1f5f980531e3cebd36985c089c0798c12289cb46e5fcdb67f66d144025ed674e9f04b3e0d2d7dffa74f559c02410b120568828febab30d550bb516d6b7aa0a6be1e715d6da648daa4dc644849d7f3aa5b417cf0e26ce64813a0045157f6c6ce6c6e201cdb6aeef84b3b88ff6ba030cfa83f4002bd09e13204e5c1a02161f0677185519928290d81006fd10e120f406dc695a46fbad5b5b585d7d0cc40461b7c641e83de04220a53be68c9838368863836118218e29354c0ca6d47891f6c5c5e9648de43d20c91920a258989f86aa42d426ad89095164301c4698082630391ea03131ee8c906462eb8d96d0deef0f31333309664aee9af41cf0bb63569c7ee1a98468114518c68863e35f726b9c58c9ccc99ee745da7bbd08f5fab8bf653302463b2f1e44714c08c328f7d1511511ffc322a5cfcb683f7c78cac1290c158170260b3813676bad4f232afd705e48f5f322ed1b1b6d2c2fcf41d83120c200b221f02ff6fb435cbf7ed76584480266be4d8d973d2ba37d61a1e1bd4249c8130847b76138881045849595b9429cb510f3e238ef8d32dac7c6021f0281f22804e3a831315814c3618c70188199d1e984991de60d568d477d1129a5fdfefdbb10110cda5b50b5e03886b50de7016246bf1f26bf539dce30e7d6acabb3a1c9cfa7fd32daaf5cf905d602dd076300006b1b585bbb18d488c41d2ac68049600ce3f8f1d9d2d42a6642159465b45fbdfa6e507679d5c810a228763f0cfe30b97973132202d5ac6bb5e095d413aaf9b932daab4a2d3604227169474ec4f2f2cc9e1ccfee380b5cd6fde919b197f64a018e58f679ef183874680ccc164130aa018260ccefc4cd010180004110247d6b5d2da3bd5280191af4ff7d88ee661bc48cdbb737f6e438b396c096b9bc4a202dd25e558256ab8573e7beb1bbbb7d18c368361bc9af99b5d657246ecc8fd37e716e7b7bc7af07d6d62e96020800ff015851d2bc087482ee0000000049454e44ae426082</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="1849">89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af400000700494441545885c5974b6c1c551686bf73abfae56e3fbaed781c633b269eb62305c5498689269ef0d0443c94482819b16481102084105216030b904002918744166c60c11621c1820d30908c4128490786c12164624b89c789336ee761b79d76bbbbaaddf5984555573f6ccd8e992b956e3d4e9dffafff9c7bee29c96432007c3636e6f23f1c87331901d001bed9bfdffdf3eeddec1a1820a2ebbf2a70d9b2b870e306e3fbf7bb7f1a1f17f90bb88777ed62675f1fd3376f3297cb51b1ac0d5f16113411945268fea194421309ce955228dfa679d695229948d0118ff38fd9593ebb70c15360b4bf9fabd92c2b8383a49f7b0e2d12d9081d01940888a0fc7b4a04f19f49d339f5f7012a154a67ce909f9e66b4bfbf4620ac69647339d2cf3f8f9e48acc7ae73126a6f27dcd9492899446b6fc7b26dcc5c0e2914d0565771565703b5a4790e85483cf8202b972fd3e1e3e800aeeb52b16d5cdbc6f21d348327868648eddd8b1e8bad23d8d6db5b8b71b1c8ecf838a942014402f582d9714004d7751b090058c522a2698d318fc5e87ef8615a8787d78765831189c7197ee209662726908909e24ad5c04510c741351370fc0bbb58049f800089c1417a0f1d22541716c7b6599c9be3f6cc0c776666688944480e0cd0393848675f1fca07dcb27b37c5ad5bb9f6e9a7f4aead05045cc7412915607a041c0780caca0a120aa144d0138975e0d77efe996f3ef8802da1109b12098662319452c8ec2cf96fbfe5662442cfa143746fdb0640bca3837b9f7c928befbecbb664d253c075512201a602b0fd8b9ba74e51595ac22e95e83d783000af98267f7def3dce1d3fce1fe271ee8dc769055cd3c4350c5cc3206259a44a25ac8f3fe6fa279f5029973d12c9249b1e7f9cfcf2329826629a884880a91a4290cfb3f8dd77b40e0dd1b17367f0e5a7df7f9fcaf9f3dcdfd545c8b23c50d324d2d747a4bf1fd7303ce7fe1c999860e5f3cf83f7d3fbf691edec049fac1209300305147872562a0c3cf5544df69f7ee2c6975f32148b79c0a5128e61907aec317a5f7c919e175ea0b0772f463e8f6b9a502a8161609d3943616a2af0f3bb679ee1f2dc9ca7409deaaa9a03d58ad69a4e134ea58284fbe2edb7d9d5d6e6b12f950212893d7b02e75b1e7a88abb76f43a9e491300c300cca1f7d846bdb00c4dadb590e87717239645d0eb86e504e3b76ec081cdfb97285f0d414d126704c13a9ab96e1588c7ca1005570d304d3c4999ba392cd0676d1cd9ba964b32811ecfa10388e13d4f2f63a02d98b1769771c2ad92cd6e2a2276f15a47eb82eacad41b98c94cb0101314d9c9999c0ac3b9de6ae656da04035044ad17adf7dc10bf3bffc422a14f2d6b661602f2de1debd8b5b2c7aa0f5636d2df87a2995606505777919ebd2a5c0e437dbb793ab54504a0539a003d8b68da61452ad5afe101112ba1eec661a20b6ed7d65d3907219318cda86e46f544d0e59b56d6f19fab9a1002c3f049a5218939381fd3da3a314ebd4a9df6e9b87f201551db888101a19096c162e5f26190ea344b01a4260db88bf0a8a75047a77eca050cd8fa6bd7d9d021b802b11f474ba466072924d91c87a056cc7091a0da36eed6e4aa7b17a7a366c309a35a807ad1e5a4f0f6a6020b0c94d4dd5083427a1f8f2ae5dbfcedaf2b2f750d3f8fd5b6f51f077b07a12f5446f5fba4444d31a43a0142d478e04bbabb1bc8cca66d1955a5f882cdbae3917217be244e07c706c0ce3e0c1a0fba9da953efc909bdf7fcf8d4c86ccc9930cb5b43480870f1c401f1d0dfc9c3b7a949144c2534e04cb0f815e554055fb3a114ae3e32c9c3ecda6471e0160ecd557f9a7ae933c752a20614f4f23afbdc64aa5c2be50889668b4013cf2ecb301f8f4575f513e7b9691eeeea04d5b1782e644cb9f3c8999cb01108ac5d8f5faeb848f1da3dcd5558bb352f444a3b4e8bad7bc6cde4cfc9d7788bdf4122a1a05a0b4b0c0df8f1fe78fa99407de4440af86201a0e37c4d8cde7b9f3c61b74bdf9262d5d5d00f48e8de1ecd943f1da35d6ae5c41ae5e25a26968c3c3a8749ad0962d0d1d55696181bfbdf20a3b358d78281480bbcd2168c881bad9be7891f9a79f26f2f2cbf43ffaa82799aed39a4e43ddf2da68fcebebaf99387182fb759dbed6d65a67ec3725eb09c0c6bdfcea2aead831a6cf9ee59e2347882593ff15d8585ee6dcd1a3a8f3e739904c12d6b44670dfae9180e3e0c286eb5d530a11a1359361e1dc396e7577a38687898d8cd0b97d3be055b8dce4246bd3d344e7e7198ac5e8ebec6c8879fd3f42c5b6834aa803989645d13489b6b56d085e4dba16a5f8edd212f2c30fa81f7fc4741cf2964552d3d81a0e7b6b3c95aa016e002e2264171731fdbf2f1de056a1e06d3440aaad0de5ba88df3a5725abee7d8eff57e4b82e51a568f12b9bf8f7c4756b80d573df9f6ddbcc2d2c70757e9e5b858247e07026235f3cf080eb0265db66deaf82bfd6b05d978552897fafac70389311f97fff9eff070f703299350d40570000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>recover_button</sender>
+        <signal>clicked()</signal>
+        <receiver>Recovery</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>immediate_quit_button</sender>
+        <signal>clicked()</signal>
+        <receiver>Recovery</receiver>
+        <slot>reject()</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

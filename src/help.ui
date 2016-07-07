@@ -1,0 +1,128 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>QTodoHelpBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>QTodoHelpBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>600</width>
+            <height>502</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>QTodo Help</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QTextBrowser" row="0" column="0" rowspan="1" colspan="2">
+            <property name="name">
+                <cstring>textBrowser1</cstring>
+            </property>
+            <property name="text">
+                <string>&lt;h1&gt;QTodo Help&lt;/h1&gt;
+&lt;hr&gt;
+Unfortunately the documentation is not yet written. Help is appreciated!
+
+&lt;h2&gt;Shortcuts:&lt;/h2&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Key&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ctrl+S&lt;/td&gt;&lt;td&gt;Save all&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ctrl+P&lt;/td&gt;&lt;td&gt;Print&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ctrl+Q&lt;/td&gt;&lt;td&gt;Quit&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ctrl+O&lt;/td&gt;&lt;td&gt;Sort&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ctrl+A&lt;/td&gt;&lt;td&gt;Select All&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ctrl+Shift+A&lt;/td&gt;&lt;td&gt;Deselect All&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Ctrl+F&lt;/td&gt;&lt;td&gt;Filter&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+Z&lt;/td&gt;&lt;td&gt;Undo&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+PageUp&lt;/td&gt;&lt;td&gt;Add at top&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+PageDown&lt;/td&gt;&lt;td&gt;Add at bottom&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+Ctrl&lt;/td&gt;&lt;td&gt;Select/Deselect todo&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt++&lt;/td&gt;&lt;td&gt;Todo selected -&gt; sub-todos get deselected&lt;br&gt;Todo deselected -&gt; sub-todos get selected&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+&amp;lt;&lt;/td&gt;&lt;td&gt;Indent&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+Shift+&amp;lt;&lt;/td&gt;&lt;td&gt;Unindent&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+,&lt;/td&gt;&lt;td&gt;Add above&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+.&lt;/td&gt;&lt;td&gt;Add below&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+M&lt;/td&gt;&lt;td&gt;Append&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+O&lt;/td&gt;&lt;td&gt;Sort sub-todos of current todo&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+-&lt;/td&gt;&lt;td&gt;Delete&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+1&lt;/td&gt;&lt;td&gt;Priority&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+2&lt;/td&gt;&lt;td&gt;Status&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+3&lt;/td&gt;&lt;td&gt;Deadline&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+4&lt;/td&gt;&lt;td&gt;Task&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+5&lt;/td&gt;&lt;td&gt;Agent&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+6&lt;/td&gt;&lt;td&gt;Show more/less&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+7&lt;/td&gt;&lt;td&gt;Cut&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+8&lt;/td&gt;&lt;td&gt;Copy&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Alt+9&lt;/td&gt;&lt;td&gt;Paste&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;F1&lt;/td&gt;&lt;td&gt;Help&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;F2&lt;/td&gt;&lt;td&gt;Deadlines&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;F3&lt;/td&gt;&lt;td&gt;Refresh filter&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;F4&lt;/td&gt;&lt;td&gt;Reset filter&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;F11&lt;/td&gt;&lt;td&gt;Jump to first todo&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;F12&lt;/td&gt;&lt;td&gt;Jump to last todo&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" row="1" column="1">
+            <property name="name">
+                <cstring>pushButton1</cstring>
+            </property>
+            <property name="text">
+                <string>&amp;Close</string>
+            </property>
+            <property name="accel">
+                <string>Alt+C</string>
+            </property>
+            <property name="iconSet">
+                <iconset>image1</iconset>
+            </property>
+        </widget>
+        <spacer row="1" column="0">
+            <property name="name">
+                <cstring>spacer1</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>231</width>
+                    <height>21</height>
+                </size>
+            </property>
+        </spacer>
+    </grid>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="613">89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff610000022c49444154388da5933b68935114c77f37dfa379daa45869132bb5c5ba485b906ae3e02e22288a76101fdd1ded26383a3838e8e6a876b04b113239384882361407a10f6aa31034b655639ac797efcbbdd721d524b408e21fee72ef3dbff3bfe7dc23d2e934ff2373afcd9954525b2624a21e02c86d59545d78783e23fe0ab89d4aeabe6ecdad338ae488c0a92b9402cb6ab0fe55f1e0e5847e9f37797cb905f2b5078f1e92dcb904877b1bb89ecb9144174707ba888504fd51cddd298373e3156ecc26f52e07fbc39a8b933ebe6f4bc6067df4444c364be078108f19c42206ef7292b327822c7d917438984925f5e488a6ec08ea9ea62762f2b30ae915585c8785d53a00dd21834211c60725579f365d9800a601918060a304b66192db84a53c6c9400e9722cae00c8ae29e6de0894b609fbdb9e10b415c59a0f6a008267af77ec29872ba760a83fc0ea67c57c16946ed6cf6fb5019412147e74b6470053273d86fa232ce715f7e6c1953ec44efd35ba05a878825215101ab4406b501a461236750feebf1078526019ad0455a70d50ae81521ad310cdd4020c6061dda4ea825402bb2dd86d688a15ddeac2a30b19f16d5bb12fc89f15f14b0286c3c198473444c7597eabc1f39b6f45c73ff8b46570205c63a02f0080f424a74743f804bc5a86b2d3bcf7215f61ad60b76ad53e4cd767937a6cc0e1f8b0816559c463609bf071133cb74e664592cd59cc4d67c59e80df9a9e9dd0c3bd0ea16000d094ca15560b7e9e5c5bdc354c7b02fe45bf003fb9e0113a9bb8220000000049454e44ae426082</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="1325">89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af4000004f4494441545885c5975b68145718c77fb3ee662f496c9286902c51a3592f31e94a22b4452352152c82e0850aed83204249bce4216df250b156044b2f8178a9f5fea0e083b6f8225684888566550ca8c4346248154d52e3ae76b399d9cd5e664e1fd2d96632b349b405ff30ecec9cef9bffef7c67ce9c33522010e04dcaf646dd01fbeb2435351d16004208c6feb6b43448af7a2f69aa43d0dc7c4408a18d2649361c8e51764d1b354f2613689a86100221345a5b1ba70433294073f311a19f7b3c6e66ce9cc9922535783c2e2a2aca000885860806ff2210b84357d7ef288a82aaa6003870e0b309412604d0cd3d1e378b1757b37efd0ae6cf9f3121702834c4c58bbf72f9f25586872308213878f0f38c1019019a9b8f084992282e2e66ebd68ff0fbcb27341eaffefe20c78fffc4bd7b7751559543879a2c212c017473afd7cbb66d9fe0f516be92b9ae582cceb973bfd0d6760d4dd32c214cd3502f7b5151115bb66c64faf46c64394657d72352a914b21c9bf00885867038a621cb31545563ddba0fa8acac4208c18e1ddf8af17e96d3d0e371b376ed2a7272dc284a8c9e9e3e962df333678e97dede0106075f5af67878384a6ded3b6467bb4926d574dca64d6b78f66c90c1c13f4d39860ae8bdf7f97c1417bf8d2c1bcd01cacbbde4e5e5987a1e0c86d3e6e3e36c3689dadaf7b0d96cd4d77f2d320208a1e1f1b8a9aa9a872c4791e528b36615a7cd752d5c584661615e3a261c1e66d5aac569735df9f9b9c87294fefee7a8aa464ece7453054c43909f5f80c7e342966300c8728cf6f6fb2c5d5a6588aba9994b3c9ea0a7e7291b372e37990f0cbce0d8b19f79fcb80f455100c8cdcd251c360e5f7a1634351d16926463d1223f1515e629b76041192b56d498ae2b4acc64fee4c920bb77ff90361eab478f7a515595a347bf900c151042909565c76693181e3627debeddc5c84882356bde375c7f157380ac2c27d1e8bf6da62188c71396000081c05d4646e26cd8b0dcb27d32732b1900344dfc0320674ce8eaea65f5ea774d3d07b87efdce94ccf545cd00a02fa989448248c41aa0a4a488c6c68f2dcd01366ffe104589d1d6f6db84e6ba9701004697d4643289aaaaa6c4d2522fbb766dc968aeabbe7e3d404688582c66f89f7e0fb4b434489aa691488caeeb630fafb798bd7b3fb57ce0ce9cb96209b172652d9224198e783c8ea6a99c38f1657a4d18f70ca8288a4c565681a1e7fbf6d5599aefd9f3238aa2108d8e5057b7ce04214912d7aeb5a7af45221143f90d15d0a5280a0e8703a7d389d3e964f6ec1926f3a74f9fb37fff2952a9144ea793f6f60e4e9fbe64aa84cf579abe8fdd6e37bd844c00adad8d92aaa60887c3b8dd2edc6e179d9d0f0c65eeef0fd1d272164dd3d2316eb78b9b37ef1ae26eddeae6fcf92be9f6502888aaa63879728f6149b65c0d83c1410a0a0ac8cfcf03a0a3e33e0e871dbfdfc7d9b397d03481cbe532e5e971a5a5455cb870351d130abd6060a0cf547ec8b0216968f85e4c9b66a7baba9adcdc6c2bc6292b1291b97123403299e0d4a9af4c1b928c5bb29d3bbf1376bb03bfdf4f4949d16b99f7f73fa3a3e3368944dcd27c420020bd83f1f9e65159393fbd159f4c894492cece6ebabbef2384c8683e2900c0f6eddf080087c34179f95c7cbe32f2f3dfb28c7df972889e9e3f78f8f001f1f8c8a4e65302d0a5ef648410389d4e0a0b8bc67c1969f4f53d416f074c4ffb7f0618abbabafd62acb97e3ef60d3755bd16c0ffa937fe75fc37b5bf9a47d7a58cca0000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>pushButton1</sender>
+        <signal>clicked()</signal>
+        <receiver>QTodoHelpBase</receiver>
+        <slot>close()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>pushButton1</tabstop>
+    <tabstop>textBrowser1</tabstop>
+</tabstops>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

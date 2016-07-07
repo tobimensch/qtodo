@@ -1,0 +1,15 @@
+QTODO 0.1.2 README
+------------------
+
+How to compile the sources:
+- You need Qt3 development packages, only the latest version is garuanteed to work.
+- You need a decent version of gcc, 4.0.3 is known to work.
+
+1. type "qmake" in the top folder.
+2. type "make" in the top folder.
+3. become root and type "make install" to install QTodo.
+
+Eventually you should be able to start the program with "qtodo".
+
+Have fun.
+

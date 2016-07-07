@@ -1,0 +1,820 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>QTodoSettingsBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>QTodoSettingsBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>483</width>
+            <height>424</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>QTodo Settings</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>true</bool>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>Layout1</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>help_button</cstring>
+                    </property>
+                    <property name="text">
+                        <string>He&amp;lp</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+L</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                    <property name="iconSet">
+                        <iconset>image1</iconset>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>Horizontal Spacing2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>ok_button</cstring>
+                    </property>
+                    <property name="text">
+                        <string>O&amp;K</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+K</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>cancel_button</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Cancel</string>
+                    </property>
+                    <property name="accel">
+                        <string></string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QTabWidget" row="0" column="0">
+            <property name="name">
+                <cstring>tabWidget</cstring>
+            </property>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>Widget8</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Ge&amp;neral</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <spacer row="7" column="0" rowspan="1" colspan="8">
+                        <property name="name">
+                            <cstring>spacer4_3</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>350</width>
+                                <height>41</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QCheckBox" row="5" column="0" rowspan="1" colspan="2">
+                        <property name="name">
+                            <cstring>create_backups_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Create backups</string>
+                        </property>
+                        <property name="accel">
+                            <string></string>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox" row="4" column="0">
+                        <property name="name">
+                            <cstring>autosave_lists_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Autosa&amp;ve lists</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+V</string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="0" column="0" rowspan="1" colspan="2">
+                        <property name="name">
+                            <cstring>textLabel1_6</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Select language</string>
+                        </property>
+                    </widget>
+                    <spacer row="0" column="5" rowspan="1" colspan="3">
+                        <property name="name">
+                            <cstring>spacer11</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>91</width>
+                                <height>21</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QComboBox" row="0" column="2" rowspan="1" colspan="3">
+                        <property name="name">
+                            <cstring>language_combo</cstring>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox" row="1" column="0" rowspan="1" colspan="8">
+                        <property name="name">
+                            <cstring>show_trayicon</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Show &amp;trayicon</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+T</string>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox" row="2" column="0" rowspan="1" colspan="2">
+                        <property name="name">
+                            <cstring>show_main_window_at_startup_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Show main &amp;window at startup</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+W</string>
+                        </property>
+                    </widget>
+                    <spacer row="4" column="1">
+                        <property name="name">
+                            <cstring>spacer5</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>31</width>
+                                <height>20</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QLabel" row="4" column="2">
+                        <property name="name">
+                            <cstring>textLabel1_3</cstring>
+                        </property>
+                        <property name="text">
+                            <string>All</string>
+                        </property>
+                    </widget>
+                    <widget class="QSpinBox" row="4" column="3">
+                        <property name="name">
+                            <cstring>autosave_minutes_spinbox</cstring>
+                        </property>
+                        <property name="enabled">
+                            <bool>false</bool>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="4" column="4" rowspan="1" colspan="2">
+                        <property name="name">
+                            <cstring>textLabel2_2</cstring>
+                        </property>
+                        <property name="text">
+                            <string>minutes</string>
+                        </property>
+                    </widget>
+                    <spacer row="4" column="6" rowspan="1" colspan="2">
+                        <property name="name">
+                            <cstring>spacer5_2</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>30</width>
+                                <height>20</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QCheckBox" row="3" column="0" rowspan="1" colspan="8">
+                        <property name="name">
+                            <cstring>dont_quit_on_window_close_button</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Don't quit QTodo b&amp;y the close button of the main window</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+Y</string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="6" column="0" rowspan="1" colspan="3">
+                        <property name="name">
+                            <cstring>textLabel1_5</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Maximum number of undo steps</string>
+                        </property>
+                    </widget>
+                    <widget class="QSpinBox" row="6" column="3">
+                        <property name="name">
+                            <cstring>undo_steps_spinbox</cstring>
+                        </property>
+                        <property name="minValue">
+                            <number>1</number>
+                        </property>
+                    </widget>
+                    <spacer row="6" column="4" rowspan="1" colspan="3">
+                        <property name="name">
+                            <cstring>spacer5_2_2</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>50</width>
+                                <height>20</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <spacer row="6" column="7">
+                        <property name="name">
+                            <cstring>spacer5_2_2_2</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>30</width>
+                                <height>20</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>Widget9</cstring>
+                </property>
+                <attribute name="title">
+                    <string>L&amp;ook and feel</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox" row="0" column="0" rowspan="1" colspan="5">
+                        <property name="name">
+                            <cstring>groupBox3</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Colors</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QCheckBox" row="1" column="0">
+                                <property name="name">
+                                    <cstring>todo_item_head_color_system_checkbox</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>S&amp;ystem color</string>
+                                </property>
+                                <property name="accel">
+                                    <string>Alt+Y</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="3" column="0">
+                                <property name="name">
+                                    <cstring>todo_item_body_color_system_checkbox</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Syste&amp;m color</string>
+                                </property>
+                                <property name="accel">
+                                    <string>Alt+M</string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="1" column="3">
+                                <property name="name">
+                                    <cstring>todo_item_head_color_button</cstring>
+                                </property>
+                                <property name="text">
+                                    <string></string>
+                                </property>
+                                <property name="accel">
+                                    <string></string>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton" row="3" column="3">
+                                <property name="name">
+                                    <cstring>todo_item_body_color_button</cstring>
+                                </property>
+                                <property name="text">
+                                    <string></string>
+                                </property>
+                                <property name="accel">
+                                    <string></string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="0" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>textLabel3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Color of todo item head</string>
+                                </property>
+                            </widget>
+                            <spacer row="1" column="1">
+                                <property name="name">
+                                    <cstring>spacer4</cstring>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>Expanding</enum>
+                                </property>
+                                <property name="sizeHint">
+                                    <size>
+                                        <width>150</width>
+                                        <height>21</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                            <spacer row="3" column="1">
+                                <property name="name">
+                                    <cstring>spacer4_2</cstring>
+                                </property>
+                                <property name="orientation">
+                                    <enum>Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>Expanding</enum>
+                                </property>
+                                <property name="sizeHint">
+                                    <size>
+                                        <width>150</width>
+                                        <height>21</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                            <widget class="QLabel" row="2" column="0" rowspan="1" colspan="3">
+                                <property name="name">
+                                    <cstring>textLabel4</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Color of todo item body</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="3" column="2">
+                                <property name="name">
+                                    <cstring>textLabel1_2_2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Custom:</string>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="1" column="2">
+                                <property name="name">
+                                    <cstring>textLabel1_2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Custom:</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <widget class="QCheckBox" row="1" column="0" rowspan="1" colspan="5">
+                        <property name="name">
+                            <cstring>show_todo_details_on_mouse_over_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Show &amp;todo item details on mouse over</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+T</string>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="7" column="0">
+                        <property name="name">
+                            <cstring>textLabel1_4_2</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Border width</string>
+                        </property>
+                    </widget>
+                    <widget class="QSpinBox" row="7" column="1">
+                        <property name="name">
+                            <cstring>border_width_spinbox</cstring>
+                        </property>
+                        <property name="maxValue">
+                            <number>4</number>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="7" column="2">
+                        <property name="name">
+                            <cstring>textLabel2_3_2</cstring>
+                        </property>
+                        <property name="text">
+                            <string>points</string>
+                        </property>
+                    </widget>
+                    <spacer row="7" column="3" rowspan="1" colspan="2">
+                        <property name="name">
+                            <cstring>spacer20_2</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>223</width>
+                                <height>21</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <spacer row="6" column="3" rowspan="1" colspan="2">
+                        <property name="name">
+                            <cstring>spacer20</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>51</width>
+                                <height>21</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QLabel" row="6" column="2">
+                        <property name="name">
+                            <cstring>textLabel2_3</cstring>
+                        </property>
+                        <property name="text">
+                            <string>points</string>
+                        </property>
+                    </widget>
+                    <widget class="QSpinBox" row="6" column="1">
+                        <property name="name">
+                            <cstring>todo_text_point_size_spinbox</cstring>
+                        </property>
+                    </widget>
+                    <widget class="QLabel" row="6" column="0">
+                        <property name="name">
+                            <cstring>textLabel1_4</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Size of todo-text</string>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox" row="5" column="0" rowspan="1" colspan="5">
+                        <property name="name">
+                            <cstring>borderless_task_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>No border around todo input fields</string>
+                        </property>
+                        <property name="accel">
+                            <string></string>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox" row="4" column="0" rowspan="1" colspan="5">
+                        <property name="name">
+                            <cstring>tab_input_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Use TAB to na&amp;vigate between input fields</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+V</string>
+                        </property>
+                    </widget>
+                    <widget class="QCheckBox" row="2" column="0" rowspan="2" colspan="4">
+                        <property name="name">
+                            <cstring>todo_menu_button_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>Enable menu button for every todo item</string>
+                        </property>
+                        <property name="accel">
+                            <string></string>
+                        </property>
+                    </widget>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Deadlines</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QGroupBox" row="1" column="0">
+                        <property name="name">
+                            <cstring>time_settings_groupbox</cstring>
+                        </property>
+                        <property name="title">
+                            <string>Time settings</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel" row="1" column="0">
+                                <property name="name">
+                                    <cstring>textLabel2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>How many minutes, before a deadline expires, 
+should the first warning appear?</string>
+                                </property>
+                            </widget>
+                            <widget class="QSpinBox" row="1" column="1">
+                                <property name="name">
+                                    <cstring>minutes_warn_before_deadline</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QSpinBox" row="0" column="1">
+                                <property name="name">
+                                    <cstring>minutes_between_warnings</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QLabel" row="0" column="0">
+                                <property name="name">
+                                    <cstring>textLabel1</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Minutes between warnings</string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                    <spacer row="3" column="0">
+                        <property name="name">
+                            <cstring>spacer4_3_2</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>447</width>
+                                <height>41</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QCheckBox" row="0" column="0">
+                        <property name="name">
+                            <cstring>warn_before_deadlines_expire_checkbox</cstring>
+                        </property>
+                        <property name="text">
+                            <string>&amp;Warn before deadlines expire</string>
+                        </property>
+                        <property name="accel">
+                            <string>Alt+W</string>
+                        </property>
+                    </widget>
+                    <widget class="QButtonGroup" row="2" column="0">
+                        <property name="name">
+                            <cstring>warning_actions_groupbox</cstring>
+                        </property>
+                        <property name="title">
+                            <string>What kind of warning action do you want?</string>
+                        </property>
+                        <grid>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QCheckBox" row="2" column="0">
+                                <property name="name">
+                                    <cstring>execute_command_warning_checkbox</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Execute command</string>
+                                </property>
+                                <property name="accel">
+                                    <string></string>
+                                </property>
+                            </widget>
+                            <widget class="QLineEdit" row="2" column="1">
+                                <property name="name">
+                                    <cstring>execute_command_lineedit</cstring>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="1" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>trayicon_warning_checkbox</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Change appearance of tra&amp;yicon</string>
+                                </property>
+                                <property name="accel">
+                                    <string>Alt+Y</string>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox" row="0" column="0" rowspan="1" colspan="2">
+                                <property name="name">
+                                    <cstring>deadline_dialog_warning_checkbox</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Show deadlines causing the warnings</string>
+                                </property>
+                                <property name="accel">
+                                    <string></string>
+                                </property>
+                            </widget>
+                        </grid>
+                    </widget>
+                </grid>
+            </widget>
+        </widget>
+    </grid>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="564">89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff61000001fb49444154388d8d92dd4b53611c809ff7ecece36caee612a736a5643456880da2405d79234122148457fd2b5d791374d7dfd045462eea4e2170d0d6458251235aa0964a8cb67576681fe79c79f676d3c06a733d772fbc3cefc3effd895c2e478762d19489c424edb643a562a0aaa6a00fcaf1c3c8884f349b4d1289f3cccd5d6678382a0b85b2fc6f018069ea229b7d87e3384c4e4649262f9c5cb0b9f9e99f17b6b63e52adfe046062628ceded839e154a341a219f2ffe71617636493018c0b25a00a8aaab7781c7e362692945265390abab5969596e198f9fc330ea341a16954a95836f7a4f815a287c6566669ac5c514a5d20f62b17174dd00da08e1a254d2a935dabd0b1616a6c4fafa1b06067cc462e3d4eb16b67d84691eb1b37348b9ea309f68e0c9deeb3a07d1d9838d8df7727a3a8edfaf61db369ae6c5eb1fc43edc24bcf7908875402d749af295e7a2ab006065e5b10c06fdd4eb16e1e15196e74344bf3f62acb5cb10d0d0dcec8b20c6d5b4e82af89bf2b36579e3a241d0fbfb1724d80a7c2e69d4aead09e8b248c719bafb54ec560230aac1d9009cf1e171bbb81469a265eec8be0280662a2dde6e012137345bf0a586d86b303558a3fce4b6ec2b0070aeaf89d72f4c301df029d06aa3582d028ad3bfa0837a332d5e65249c52614445af2ae4f75d270fb11b1f1edc92e101875ddd4beafe4bf10b6271ce529f83b1300000000049454e44ae426082</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="613">89504e470d0a1a0a0000000d49484452000000100000001008060000001ff3ff610000022c49444154388da5933b68935114c77f37dfa379daa45869132bb5c5ba485b906ae3e02e22288a76101fdd1ded26383a3838e8e6a876b04b113239384882361407a10f6aa31034b655639ac797efcbbdd721d524b408e21fee72ef3dbff3bfe7dc23d2e934ff2373afcd9954525b2624a21e02c86d59545d78783e23fe0ab89d4aeabe6ecdad338ae488c0a92b9402cb6ab0fe55f1e0e5847e9f37797cb905f2b5078f1e92dcb904877b1bb89ecb9144174707ba888504fd51cddd298373e3156ecc26f52e07fbc39a8b933ebe6f4bc6067df4444c364be078108f19c42206ef7292b327822c7d917438984925f5e488a6ec08ea9ea62762f2b30ae915585c8785d53a00dd21834211c60725579f365d9800a601918060a304b66192db84a53c6c9400e9722cae00c8ae29e6de0894b609fbdb9e10b415c59a0f6a008267af77ec29872ba760a83fc0ea67c57c16946ed6cf6fb5019412147e74b6470053273d86fa232ce715f7e6c1953ec44efd35ba05a878825215101ab4406b501a461236750feebf1078526019ad0455a70d50ae81521ad310cdd4020c6061dda4ea825402bb2dd86d688a15ddeac2a30b19f16d5bb12fc89f15f14b0286c3c198473444c7597eabc1f39b6f45c73ff8b46570205c63a02f0080f424a74743f804bc5a86b2d3bcf7215f61ad60b76ad53e4cd767937a6cc0e1f8b0816559c463609bf071133cb74e664592cd59cc4d67c59e80df9a9e9dd0c3bd0ea16000d094ca15560b7e9e5c5bdc354c7b02fe45bf003fb9e0113a9bb8220000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>ok_button</sender>
+        <signal>clicked()</signal>
+        <receiver>QTodoSettingsBase</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>cancel_button</sender>
+        <signal>clicked()</signal>
+        <receiver>QTodoSettingsBase</receiver>
+        <slot>reject()</slot>
+    </connection>
+    <connection>
+        <sender>todo_item_head_color_system_checkbox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>todo_item_head_color_button</receiver>
+        <slot>setDisabled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>todo_item_body_color_system_checkbox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>todo_item_body_color_button</receiver>
+        <slot>setDisabled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>autosave_lists_checkbox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>autosave_minutes_spinbox</receiver>
+        <slot>setEnabled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>execute_command_warning_checkbox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>execute_command_lineedit</receiver>
+        <slot>setEnabled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>warn_before_deadlines_expire_checkbox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>time_settings_groupbox</receiver>
+        <slot>setEnabled(bool)</slot>
+    </connection>
+    <connection>
+        <sender>warn_before_deadlines_expire_checkbox</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>warning_actions_groupbox</receiver>
+        <slot>setEnabled(bool)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>ok_button</tabstop>
+    <tabstop>cancel_button</tabstop>
+    <tabstop>help_button</tabstop>
+    <tabstop>language_combo</tabstop>
+    <tabstop>show_trayicon</tabstop>
+    <tabstop>show_main_window_at_startup_checkbox</tabstop>
+    <tabstop>dont_quit_on_window_close_button</tabstop>
+    <tabstop>autosave_lists_checkbox</tabstop>
+    <tabstop>autosave_minutes_spinbox</tabstop>
+    <tabstop>create_backups_checkbox</tabstop>
+    <tabstop>undo_steps_spinbox</tabstop>
+    <tabstop>tabWidget</tabstop>
+    <tabstop>todo_item_head_color_system_checkbox</tabstop>
+    <tabstop>todo_item_head_color_button</tabstop>
+    <tabstop>todo_item_body_color_system_checkbox</tabstop>
+    <tabstop>todo_item_body_color_button</tabstop>
+    <tabstop>show_todo_details_on_mouse_over_checkbox</tabstop>
+    <tabstop>todo_menu_button_checkbox</tabstop>
+    <tabstop>tab_input_checkbox</tabstop>
+    <tabstop>borderless_task_checkbox</tabstop>
+    <tabstop>todo_text_point_size_spinbox</tabstop>
+    <tabstop>border_width_spinbox</tabstop>
+    <tabstop>warn_before_deadlines_expire_checkbox</tabstop>
+    <tabstop>minutes_between_warnings</tabstop>
+    <tabstop>minutes_warn_before_deadline</tabstop>
+    <tabstop>deadline_dialog_warning_checkbox</tabstop>
+    <tabstop>trayicon_warning_checkbox</tabstop>
+    <tabstop>execute_command_warning_checkbox</tabstop>
+    <tabstop>execute_command_lineedit</tabstop>
+</tabstops>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

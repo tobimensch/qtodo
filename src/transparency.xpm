@@ -1,0 +1,8 @@
+/* XPM */
+static char * transparency_xpm[] = {
+"4 4 1 1",
+" 	c None",
+"    ",
+"    ",
+"    ",
+"    "};
